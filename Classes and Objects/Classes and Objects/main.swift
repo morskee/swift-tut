@@ -8,14 +8,10 @@
 
 import Foundation
 
-let myCar = Car()
 
-let someRichGuysCar = Car(customerChosenColour: "Gold")
+let mySelfDrivingCar = SelfDrivingCar()
 
-print(myCar.colour)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
+//mySelfDrivingCar.destination = "1 Hacker Way"
 
-print(someRichGuysCar.colour)
-print(someRichGuysCar.numberOfSeats)
-print(someRichGuysCar.typeOfCar)
+mySelfDrivingCar.drive()
+
